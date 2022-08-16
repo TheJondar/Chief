@@ -13,7 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^8.21.0",
-    "prettier": "^2.7.1"
+    "eslint": "^8.22.0",
+    "prettier": "^2.7.1",
+    "prettier-eslint": "^15.0.1"
   }
 }
