@@ -12,6 +12,8 @@
 /build
 
 # misc
+.prettierrc.js
+desktop.ini
 .DS_Store
 .env.local
 .env.development.local
@@ -21,3 +23,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Local Netlify folder
+.netlify
