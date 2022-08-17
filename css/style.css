@@ -351,8 +351,10 @@ a:focus {
    margin-bottom: 45px;
 }
 
+/* Changed min-width to 100% */
 .carousel .container-fluid {
    padding: 0;
+   min-width: 100%;
 
 }
 
