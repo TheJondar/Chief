@@ -17,6 +17,13 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@flaticon/flaticon-uicons@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@flaticon/flaticon-uicons/-/flaticon-uicons-1.7.0.tgz#6eb896fbadb3d04e0dfdb1432bc13a5002caa05e"
+  integrity sha512-bpcvplYZs8Wt5yIPeeOF41vwUaZeDQvJAlKJN9UQidS8xqTF2Cjkh7IZ4WcKNnSWeczslP0NgXwegS9VeR21tw==
+  optionalDependencies:
+    esbuild-linux-64 "^0.14.5"
+
 "@humanwhocodes/config-array@^0.10.4":
   version "0.10.4"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.10.4.tgz#01e7366e57d2ad104feea63e72248f22015c520c"
@@ -305,6 +312,11 @@ doctrine@^3.0.0:
   integrity sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==
   dependencies:
     esutils "^2.0.2"
+
+esbuild-linux-64@^0.14.5:
+  version "0.14.54"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-64/-/esbuild-linux-64-0.14.54.tgz#de5fdba1c95666cf72369f52b40b03be71226652"
+  integrity sha512-EgjAgH5HwTbtNsTqQOXWApBaPVdDn7XcK+/PtJwZLT1UmpLoznPd8c5CxqsH2dQK3j05YsB3L17T8vE7cp4cCg==
 
 escape-string-regexp@^1.0.2:
   version "1.0.5"
