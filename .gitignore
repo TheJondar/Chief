@@ -23,6 +23,7 @@ chief-charity-website.code-workspace
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.favorites.json
 
 # Local Netlify folder
 .netlify
