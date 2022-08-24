@@ -2,7 +2,7 @@
 /********* General CSS *********/
 /*******************************/
 body {
-   color: #b4b4b4;
+   color: #4b4b4b;
    font-weight: 500;
    background: #130e27f1;
    font-family: 'Quicksand', sans-serif;
@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-   color: #4a4c70;
+   color: #8388e4;
 }
 
 a {
@@ -693,6 +693,7 @@ a:focus {
 }
 
 .about .about-tab .nav.nav-pills .nav-link {
+   color: #989cdbc7;
    padding: 8px;
    font-weight: 600;
    background: none;
@@ -714,6 +715,7 @@ a:focus {
 }
 
 .about .about-tab .tab-content .container {
+   color: #e7e8f7;
    padding: 0;
 }
 
@@ -790,6 +792,7 @@ a:focus {
 }
 
 .service .service-text p {
+   color: #dddbdb;
    margin: 0;
 }
 
