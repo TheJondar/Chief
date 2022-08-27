@@ -1,4 +1,16 @@
 {
   "liveServer.settings.port": 5501,
-  "inline-bookmarks.view.expanded": true
+  "inline-bookmarks.view.expanded": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**\\node_modules": true,
+    "node_modules": true
+  },
+  "explorerExclude.backup": {},
+  "dimmer.enabled": true
 }
