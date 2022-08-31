@@ -5,7 +5,7 @@ body {
    color: #4b4b4b;
    font-weight: 500;
    background: #130e27f1;
-   font-family: 'Quicksand', sans-serif;
+   font-family: "Quicksand", sans-serif;
 }
 
 h1,
@@ -19,13 +19,13 @@ h6 {
 
 a {
    color: #4a4c70;
-   transition: .3s;
+   transition: 0.3s;
 }
 
 a:hover,
 a:active,
 a:focus {
-   color: #FDBE33;
+   color: #fdbe33;
    outline: none;
    text-decoration: none;
 }
@@ -37,16 +37,16 @@ a:focus {
    font-weight: 500;
    color: #777777;
    border-radius: 0;
-   border: 2px solid #FDBE33;
-   box-shadow: inset 0 0 0 0 #FDBE33;
+   border: 2px solid #fdbe33;
+   box-shadow: inset 0 0 0 0 #fdbe33;
    transition: ease-out 0.3s;
    -webkit-transition: ease-out 0.3s;
    -moz-transition: ease-out 0.3s;
 }
 
 .btn.btn-custom:hover {
-   color: #20212B;
-   box-shadow: inset 0 0 0 30px #FDBE33;
+   color: #20212b;
+   box-shadow: inset 0 0 0 30px #fdbe33;
 }
 
 .btn:focus,
@@ -66,7 +66,6 @@ a:focus {
    margin-left: 0;
 }
 
-
 /**********************************/
 /****** Loader & Back to Top ******/
 /**********************************/
@@ -82,16 +81,16 @@ a:focus {
    background: #ffffff;
    opacity: 0;
    visibility: hidden;
-   -webkit-transition: opacity .3s ease-out, visibility 0s linear .3s;
-   -o-transition: opacity .3s ease-out, visibility 0s linear .3s;
-   transition: opacity .3s ease-out, visibility 0s linear .3s;
+   -webkit-transition: opacity 0.3s ease-out, visibility 0s linear 0.3s;
+   -o-transition: opacity 0.3s ease-out, visibility 0s linear 0.3s;
+   transition: opacity 0.3s ease-out, visibility 0s linear 0.3s;
    z-index: 999;
 }
 
 #loader.show {
-   -webkit-transition: opacity .6s ease-out, visibility 0s linear 0s;
-   -o-transition: opacity .6s ease-out, visibility 0s linear 0s;
-   transition: opacity .6s ease-out, visibility 0s linear 0s;
+   -webkit-transition: opacity 0.6s ease-out, visibility 0s linear 0s;
+   -o-transition: opacity 0.6s ease-out, visibility 0s linear 0s;
+   transition: opacity 0.6s ease-out, visibility 0s linear 0s;
    visibility: visible;
    opacity: 1;
 }
@@ -101,7 +100,7 @@ a:focus {
    width: 45px;
    height: 45px;
    border: 5px solid #dddddd;
-   border-top: 5px solid #FDBE33;
+   border-top: 5px solid #fdbe33;
    border-radius: 50%;
    -webkit-animation: spin 2s linear infinite;
    animation: spin 2s linear infinite;
@@ -130,7 +129,7 @@ a:focus {
 .back-to-top {
    position: fixed;
    display: none;
-   background: #FDBE33;
+   background: #fdbe33;
    width: 44px;
    height: 44px;
    text-align: center;
@@ -152,9 +151,8 @@ a:focus {
 }
 
 .back-to-top:hover i {
-   color: #FDBE33;
+   color: #fdbe33;
 }
-
 
 /**********************************/
 /********** Top Bar CSS ***********/
@@ -166,7 +164,7 @@ a:focus {
    top: 0;
    left: 0;
    z-index: 3;
-   border-bottom: 1px solid rgba(255, 255, 255, .3);
+   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .top-bar .top-bar-left {
@@ -189,16 +187,16 @@ a:focus {
    height: 45px;
    padding: 0 10px;
    text-align: center;
-   border-left: 1px solid rgba(255, 255, 255, .3);
+   border-left: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .top-bar .text:last-child {
-   border-right: 1px solid rgba(255, 255, 255, .3);
+   border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .top-bar .text i {
    font-size: 16px;
-   color: #FDBE33;
+   color: #fdbe33;
    margin-right: 5px;
 }
 
@@ -223,17 +221,17 @@ a:focus {
    width: 45px;
    height: 100%;
    font-size: 16px;
-   color: #FDBE33;
-   border-right: 1px solid rgba(255, 255, 255, .3);
+   color: #fdbe33;
+   border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .top-bar .social a:first-child {
-   border-left: 1px solid rgba(255, 255, 255, .3);
+   border-left: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .top-bar .social a:hover {
    color: #ffffff;
-   background: #FDBE33;
+   background: #fdbe33;
 }
 
 @media (min-width: 992px) {
@@ -242,13 +240,12 @@ a:focus {
    }
 }
 
-
 /**********************************/
 /*********** Nav Bar CSS **********/
 /**********************************/
 .navbar {
    position: relative;
-   transition: .5s;
+   transition: 0.5s;
    z-index: 999;
 }
 
@@ -256,8 +253,8 @@ a:focus {
    position: fixed;
    top: 0;
    width: 100%;
-   box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
-   transition: .5s;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+   transition: 0.5s;
 }
 
 .navbar .navbar-brand {
@@ -285,7 +282,7 @@ a:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-   color: #FDBE33;
+   color: #fdbe33;
    transition: none;
 }
 
@@ -303,18 +300,18 @@ a:focus {
       top: 45px;
       padding: 20px 60px;
       background: transparent !important;
-      border-bottom: 1px solid rgba(255, 255, 255, .3);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
       z-index: 9;
    }
 
    .navbar.nav-sticky {
       padding: 10px 60px;
-      background: #20212B !important;
+      background: #20212b !important;
       border-bottom: none;
    }
 
    .page .navbar {
-      background: #20212B !important;
+      background: #20212b !important;
    }
 
    .navbar a.nav-link {
@@ -327,7 +324,7 @@ a:focus {
 @media (max-width: 991.98px) {
    .navbar {
       padding: 15px;
-      background: #20212B !important;
+      background: #20212b !important;
    }
 
    .navbar a.nav-link {
@@ -338,7 +335,6 @@ a:focus {
       box-shadow: none;
    }
 }
-
 
 /*******************************/
 /********** Hero CSS ***********/
@@ -355,7 +351,6 @@ a:focus {
 .carousel .container-fluid {
    padding: 0;
    min-width: 100%;
-
 }
 
 .carousel .carousel-item {
@@ -384,7 +379,7 @@ a:focus {
    right: 0;
    bottom: 0;
    left: 0;
-   background: rgba(0, 0, 0, .5);
+   background: rgba(0, 0, 0, 0.5);
    z-index: 1;
 }
 
@@ -424,7 +419,7 @@ a:focus {
 }
 
 .carousel .carousel-btn .btn.btn-custom:hover {
-   color: #20212B;
+   color: #20212b;
 }
 
 .carousel .carousel-btn .btn:first-child {
@@ -449,16 +444,16 @@ a:focus {
    display: flex;
    align-items: center;
    justify-content: center;
-   color: #FDBE33;
-   background: rgba(256, 256, 256, .2);
+   color: #fdbe33;
+   background: rgba(256, 256, 256, 0.2);
    font-size: 22px;
-   transition: .3s;
+   transition: 0.3s;
 }
 
 .carousel .owl-nav .owl-prev:hover,
 .carousel .owl-nav .owl-next:hover {
    color: #ffffff;
-   background: #FDBE33;
+   background: #fdbe33;
 }
 
 .carousel .owl-nav .owl-prev {
@@ -535,7 +530,6 @@ a:focus {
    }
 }
 
-
 /*******************************/
 /******* Page Header CSS *******/
 /*******************************/
@@ -544,7 +538,8 @@ a:focus {
    margin-bottom: 45px;
    padding: 210px 0 90px 0;
    text-align: center;
-   background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/page-header.jpg);
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -553,7 +548,7 @@ a:focus {
 
 .page-header h2 {
    position: relative;
-   color: #FDBE33;
+   color: #fdbe33;
    font-size: 60px;
    font-weight: 700;
    margin-bottom: 20px;
@@ -567,7 +562,7 @@ a:focus {
    height: 2px;
    left: calc(50% - 50px);
    bottom: 0;
-   background: #FDBE33;
+   background: #fdbe33;
 }
 
 .page-header a {
@@ -578,7 +573,7 @@ a:focus {
 }
 
 .page-header a:hover {
-   color: #FDBE33;
+   color: #fdbe33;
 }
 
 .page-header a::after {
@@ -624,7 +619,6 @@ a:focus {
    }
 }
 
-
 /*******************************/
 /******* Section Header ********/
 /*******************************/
@@ -641,7 +635,7 @@ a:focus {
    font-size: 22px;
    font-weight: 600;
    text-transform: capitalize;
-   color: #FDBE33;
+   color: #fdbe33;
 }
 
 .section-header h2 {
@@ -667,7 +661,6 @@ a:focus {
       font-size: 35px;
    }
 }
-
 
 /*******************************/
 /********** About CSS **********/
@@ -698,15 +691,15 @@ a:focus {
    font-weight: 600;
    background: none;
    border-radius: 0;
-   border-bottom: 1px solid rgba(0, 0, 0, .15);
+   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
    transition: none;
 }
 
 .about .about-tab .nav.nav-pills .nav-link:hover,
 .about .about-tab .nav.nav-pills .nav-link.active {
-   color: #FDBE33;
+   color: #fdbe33;
    padding-bottom: 7px;
-   border-bottom: 3px solid #FDBE33;
+   border-bottom: 3px solid #fdbe33;
 }
 
 .about .about-tab .tab-content {
@@ -725,7 +718,6 @@ a:focus {
    }
 }
 
-
 /*******************************/
 /********* Service CSS *********/
 /*******************************/
@@ -741,7 +733,7 @@ a:focus {
    display: flex;
    justify-content: space-between;
    margin-bottom: 45px;
-   transition: .3s;
+   transition: 0.3s;
 }
 
 .service .service-icon {
@@ -752,7 +744,7 @@ a:focus {
 .service .service-icon i {
    position: relative;
    display: block;
-   color: #FDBE33;
+   color: #fdbe33;
    font-size: 60px;
    line-height: 60px;
    margin-top: 5px;
@@ -771,7 +763,7 @@ a:focus {
    height: calc(100% - 10px);
    top: 5px;
    left: 0;
-   background: rgba(0, 0, 0, .1);
+   background: rgba(0, 0, 0, 0.1);
 }
 
 .service .service-text::after {
@@ -781,7 +773,7 @@ a:focus {
    height: 40px;
    top: calc(50% - 20px);
    left: -1px;
-   background: #FDBE33;
+   background: #fdbe33;
 }
 
 .service .service-text h3 {
@@ -796,7 +788,6 @@ a:focus {
    margin: 0;
 }
 
-
 /*******************************/
 /********* Donate CSS **********/
 /*******************************/
@@ -804,7 +795,7 @@ a:focus {
    position: relative;
    width: 100%;
    margin: 45px 0;
-   background: rgba(0, 0, 0, .5);
+   background: rgba(0, 0, 0, 0.5);
 }
 
 .donate .donate-content {
@@ -834,7 +825,7 @@ a:focus {
 
 .donate .donate-form {
    padding: 90px 30px;
-   background: #FDBE33;
+   background: #fdbe33;
 }
 
 .donate .donate-form .control-group {
@@ -877,12 +868,10 @@ a:focus {
 
 .donate .donate-form .btn.btn-custom:hover,
 .donate .donate-form .btn.btn-custom.active {
-   color: #FDBE33;
+   color: #fdbe33;
    border: 1px solid #ffffff;
    box-shadow: inset 0 0 0 30px #ffffff;
 }
-
-
 
 /*******************************/
 /********** Causes CSS *********/
@@ -911,13 +900,12 @@ a:focus {
 
 .causes .causes-img img {
    width: 100%;
-   transition: .3s;
+   transition: 0.3s;
 }
 
 .causes .causes-item:hover img {
    transform: scale(1.1);
 }
-
 
 .causes .causes-progress {
    width: 100%;
@@ -935,7 +923,7 @@ a:focus {
 .causes .progress .progress-bar {
    position: relative;
    width: 0px;
-   background: #FDBE33;
+   background: #fdbe33;
    overflow: visible;
    transition: 2s;
 }
@@ -947,8 +935,8 @@ a:focus {
    height: 23px;
    display: inline-block;
    padding: 2px 6px;
-   background: #FDBE33;
-   color: #20212B;
+   background: #fdbe33;
+   color: #20212b;
 }
 
 .causes .progress-bar span::after {
@@ -959,7 +947,7 @@ a:focus {
    top: 23px;
    left: calc(50% - 6px);
    border: 6px solid;
-   border-color: #FDBE33 transparent transparent transparent;
+   border-color: #fdbe33 transparent transparent transparent;
 }
 
 .causes .progress-text {
@@ -997,15 +985,13 @@ a:focus {
 }
 
 .causes .causes-btn .btn:last-child {
-   color: #20212B;
-   background: #FDBE33;
+   color: #20212b;
+   background: #fdbe33;
 }
 
 .causes .causes-btn .btn:last-child:hover {
    color: #ffffff;
 }
-
-
 
 /*******************************/
 /********** Facts CSS **********/
@@ -1017,7 +1003,7 @@ a:focus {
    margin: 45px 0;
    display: flex;
    align-items: center;
-   background: rgba(0, 0, 0, .5);
+   background: rgba(0, 0, 0, 0.5);
 }
 
 .facts .facts-item {
@@ -1030,7 +1016,7 @@ a:focus {
    margin-top: 10px;
    font-size: 60px;
    line-height: 60px;
-   color: #FDBE33;
+   color: #fdbe33;
 }
 
 .facts .facts-text {
@@ -1071,7 +1057,6 @@ a:focus {
    margin: 0;
 }
 
-
 /*******************************/
 /*********** Team CSS **********/
 /*******************************/
@@ -1095,7 +1080,7 @@ a:focus {
    width: 100%;
    transform: scale(1.1);
    margin-bottom: -15px;
-   transition: .3s;
+   transition: 0.3s;
 }
 
 .team .team-item:hover img {
@@ -1111,7 +1096,7 @@ a:focus {
    padding: 22px 0;
    text-align: center;
    background: #ffffff;
-   transition: .3s;
+   transition: 0.3s;
    overflow: hidden;
 }
 
@@ -1139,19 +1124,18 @@ a:focus {
    text-align: center;
    font-size: 14px;
    color: #4a4c70;
-   border: 2px solid #FDBE33;
-   transition: .3s;
+   border: 2px solid #fdbe33;
+   transition: 0.3s;
 }
 
 .team .team-social a:hover {
-   color: #20212B;
-   background: #FDBE33;
+   color: #20212b;
+   background: #fdbe33;
 }
 
 .team .team-item:hover .team-text {
    height: 160px;
 }
-
 
 /*******************************/
 /******* Testimonial CSS *******/
@@ -1181,7 +1165,7 @@ a:focus {
    display: flex;
    align-items: center;
    margin-bottom: 15px;
-   border-bottom: 1px solid rgba(0, 0, 0, .1);
+   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .testimonial .testimonial-profile img {
@@ -1220,13 +1204,12 @@ a:focus {
    width: 12px;
    height: 12px;
    border-radius: 0;
-   background: #FDBE33;
+   background: #fdbe33;
 }
 
 .testimonial .owl-dot.active {
-   background: #20212B;
+   background: #20212b;
 }
-
 
 /*******************************/
 /******** Volunteer CSS ********/
@@ -1235,7 +1218,7 @@ a:focus {
    position: relative;
    width: 100%;
    margin: 45px 0;
-   background: rgba(0, 0, 0, .5);
+   background: rgba(0, 0, 0, 0.5);
 }
 
 .volunteer .volunteer-content {
@@ -1265,7 +1248,7 @@ a:focus {
 
 .volunteer .volunteer-form {
    padding: 90px 30px;
-   background: #FDBE33;
+   background: #fdbe33;
 }
 
 .volunteer .volunteer-form .control-group {
@@ -1306,11 +1289,10 @@ a:focus {
 }
 
 .volunteer .volunteer-form .btn.btn-custom:hover {
-   color: #FDBE33;
+   color: #fdbe33;
    border: 1px solid #ffffff;
    box-shadow: inset 0 0 0 30px #ffffff;
 }
-
 
 /*******************************/
 /********** Event CSS **********/
@@ -1346,7 +1328,7 @@ a:focus {
    margin-bottom: 8px;
    padding-bottom: 8px;
    white-space: nowrap;
-   border-bottom: 1px solid rgba(0, 0, 0, .15);
+   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .event .event-meta p:last-child {
@@ -1371,7 +1353,7 @@ a:focus {
    height: calc(100% - 5px);
    top: 6px;
    left: 0;
-   background: rgba(0, 0, 0, .15);
+   background: rgba(0, 0, 0, 0.15);
 }
 
 .event .event-text::after {
@@ -1381,7 +1363,7 @@ a:focus {
    height: 40px;
    top: calc(50% - 20px);
    left: -1px;
-   background: #FDBE33;
+   background: #fdbe33;
 }
 
 .event .event-text h3 {
@@ -1414,7 +1396,7 @@ a:focus {
    }
 
    .event .event-meta p:last-child {
-      border-bottom: 1px solid rgba(0, 0, 0, .15);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.15);
    }
 
    .event .event-meta i {
@@ -1431,8 +1413,6 @@ a:focus {
       display: none;
    }
 }
-
-
 
 /*******************************/
 /*********** Blog CSS **********/
@@ -1471,7 +1451,7 @@ a:focus {
 }
 
 .blog .blog-text h3 a:hover {
-   color: #FDBE33;
+   color: #fdbe33;
 }
 
 .blog .blog-text p {
@@ -1482,14 +1462,14 @@ a:focus {
    margin: 0 30px;
    padding-top: 15px;
    display: flex;
-   border-top: 1px solid rgba(0, 0, 0, .15);
+   border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .blog .blog-meta p {
    margin: 0;
    color: #777777;
    padding: 0 30px;
-   border-right: 1px solid rgba(0, 0, 0, .15);
+   border-right: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .blog .blog-meta p:first-child {
@@ -1503,7 +1483,7 @@ a:focus {
 
 .blog .blog-meta i {
    color: #4a4c70;
-   margin-right: 8px
+   margin-right: 8px;
 }
 
 .blog .pagination {
@@ -1518,14 +1498,13 @@ a:focus {
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
-   color: #FDBE33;
+   color: #fdbe33;
    background: #4a4c70;
 }
 
 .blog .pagination .disabled .page-link {
    color: #999999;
 }
-
 
 /*******************************/
 /********* Contact CSS *********/
@@ -1579,7 +1558,7 @@ a:focus {
    padding: 15px;
    background: none;
    border-radius: 0;
-   border: 1px solid rgba(0, 0, 0, .1);
+   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .contact .contact-form textarea {
@@ -1587,7 +1566,7 @@ a:focus {
    padding: 8px 15px;
    background: none;
    border-radius: 0;
-   border: 1px solid rgba(0, 0, 0, .1);
+   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .contact .contact-form .btn.btn-custom {
@@ -1599,7 +1578,6 @@ a:focus {
    padding: 0;
    list-style-type: none;
 }
-
 
 /*******************************/
 /******* Single Post CSS *******/
@@ -1637,8 +1615,8 @@ a:focus {
 
 .single .single-tags a:hover {
    color: #ffffff;
-   background: #FDBE33;
-   border-color: #FDBE33;
+   background: #fdbe33;
+   border-color: #fdbe33;
 }
 
 .single .single-bio {
@@ -1716,7 +1694,7 @@ a:focus {
 }
 
 .single .post-item .post-text a:hover {
-   color: #FDBE33;
+   color: #fdbe33;
 }
 
 .single .post-item .post-meta {
@@ -1758,14 +1736,14 @@ a:focus {
    align-items: center;
    justify-content: center;
    color: #4a4c70;
-   background: #FDBE33;
+   background: #fdbe33;
    font-size: 16px;
-   transition: .3s;
+   transition: 0.3s;
 }
 
 .single .related-slider .owl-nav .owl-prev:hover,
 .single .related-slider .owl-nav .owl-next:hover {
-   color: #FDBE33;
+   color: #fdbe33;
    background: #4a4c70;
 }
 
@@ -1831,7 +1809,7 @@ a:focus {
 }
 
 .single .comment-text .btn:hover {
-   background: #FDBE33;
+   background: #fdbe33;
 }
 
 .single .comment-form {
@@ -1860,9 +1838,8 @@ a:focus {
 
 .single .comment-form input:focus,
 .single .comment-form textarea:focus {
-   border-color: #FDBE33;
+   border-color: #fdbe33;
 }
-
 
 /**********************************/
 /*********** Sidebar CSS **********/
@@ -1872,7 +1849,7 @@ a:focus {
    width: 100%;
 }
 
-@media(max-width: 991.98px) {
+@media (max-width: 991.98px) {
    .sidebar {
       margin-top: 45px;
    }
@@ -1898,7 +1875,7 @@ a:focus {
    height: 2px;
    bottom: 0;
    left: 0;
-   background: #FDBE33;
+   background: #fdbe33;
 }
 
 .sidebar .sidebar-widget .search-widget {
@@ -1913,7 +1890,7 @@ a:focus {
 
 .sidebar .search-widget input:focus {
    box-shadow: none;
-   border-color: #FDBE33;
+   border-color: #fdbe33;
 }
 
 .sidebar .search-widget .btn {
@@ -1923,11 +1900,11 @@ a:focus {
    height: 40px;
    padding: 0;
    font-size: 25px;
-   color: #FDBE33;
+   color: #fdbe33;
    background: none;
    border-radius: 0;
    border: none;
-   transition: .3s;
+   transition: 0.3s;
 }
 
 .sidebar .search-widget .btn:hover {
@@ -1944,13 +1921,13 @@ a:focus {
 
 .sidebar .tab-post .nav.nav-pills .nav-link {
    color: #4a4c70;
-   background: #FDBE33;
+   background: #fdbe33;
    border-radius: 0;
 }
 
 .sidebar .tab-post .nav.nav-pills .nav-link:hover,
 .sidebar .tab-post .nav.nav-pills .nav-link.active {
-   color: #FDBE33;
+   color: #fdbe33;
    background: #4a4c70;
 }
 
@@ -1988,10 +1965,10 @@ a:focus {
 
 .sidebar .category-widget ul li::before {
    position: absolute;
-   content: '\f105';
-   font-family: 'Font Awesome 5 Free';
+   content: "\f105";
+   font-family: "Font Awesome 5 Free";
    font-weight: 900;
-   color: #FDBE33;
+   color: #fdbe33;
    left: 1px;
 }
 
@@ -2018,8 +1995,8 @@ a:focus {
 
 .single .tag-widget a:hover {
    color: #ffffff;
-   background: #FDBE33;
-   border-color: #FDBE33;
+   background: #fdbe33;
+   border-color: #fdbe33;
 }
 
 .sidebar .image-widget {
@@ -2030,13 +2007,12 @@ a:focus {
 
 .sidebar .image-widget img {
    max-width: 100%;
-   transition: .3s;
+   transition: 0.3s;
 }
 
 .sidebar .image-widget img:hover {
    transform: scale(1.1);
 }
-
 
 /*******************************/
 /********* Footer CSS **********/
@@ -2045,7 +2021,7 @@ a:focus {
    position: relative;
    margin-top: 45px;
    padding-top: 90px;
-   background: #20212B;
+   background: #20212b;
 }
 
 .footer .footer-contact,
@@ -2062,14 +2038,14 @@ a:focus {
    margin-bottom: 30px;
    font-size: 22px;
    font-weight: 700;
-   color: #FDBE33;
+   color: #fdbe33;
 }
 
 .footer .footer-link a {
    display: block;
    margin-bottom: 10px;
    color: #ffffff;
-   transition: .3s;
+   transition: 0.3s;
 }
 
 .footer .footer-link a::before {
@@ -2081,7 +2057,7 @@ a:focus {
 }
 
 .footer .footer-link a:hover {
-   color: #FDBE33;
+   color: #fdbe33;
    letter-spacing: 1px;
 }
 
@@ -2135,7 +2111,7 @@ a:focus {
 .footer .copyright .row {
    padding-top: 25px;
    padding-bottom: 25px;
-   border-top: 1px solid rgba(256, 256, 256, .1);
+   border-top: 1px solid rgba(256, 256, 256, 0.1);
 }
 
 .footer .copyright p {
@@ -2152,11 +2128,10 @@ a:focus {
 }
 
 .footer .copyright p a:hover {
-   color: #FDBE33;
+   color: #fdbe33;
 }
 
 @media (max-width: 767.98px) {
-
    .footer .copyright p,
    .footer .copyright .col-md-6:last-child p {
       margin: 5px 0;
