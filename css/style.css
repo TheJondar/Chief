@@ -18,8 +18,9 @@ h6 {
 }
 
 a {
-   color: #4a4c70;
+   color: #cfd0e0;
    transition: 0.3s;
+   font-size: 18px;
 }
 
 a:hover,
@@ -402,7 +403,6 @@ a:focus {
 .carousel .carousel-text h1 {
    text-align: center;
    color: #ffffff;
-   font-size: 60px;
    font-weight: 700;
    margin-bottom: 20px;
 }
@@ -1108,6 +1108,7 @@ a:focus {
 
 .team .team-text p {
    margin-bottom: 20px;
+   font-size: 19px;
 }
 
 .team .team-social {
@@ -2132,6 +2133,7 @@ a:focus {
 }
 
 @media (max-width: 767.98px) {
+
    .footer .copyright p,
    .footer .copyright .col-md-6:last-child p {
       margin: 5px 0;

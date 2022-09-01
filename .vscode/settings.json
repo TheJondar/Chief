@@ -12,5 +12,6 @@
     "node_modules": true
   },
   "explorerExclude.backup": {},
-  "dimmer.enabled": true
+  "dimmer.enabled": true,
+  "favorites.sortDirection": "ASC"
 }
