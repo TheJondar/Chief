@@ -1,6 +1,13 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+
+/* Responsive Images */
+.img-fluid {
+   max-width: 100%;
+   height: auto;
+}
+
 body {
    color: #4b4b4b;
    font-weight: 500;
@@ -343,15 +350,17 @@ a:focus {
 .carousel {
    position: relative;
    width: 100%;
-   min-height: 300px;
-   background: #ffffff;
+   background: #130E27F1;
    margin-bottom: 45px;
+   max-width: 100%;
+   height: auto;
 }
 
 /* Changed min-width to 100% */
 .carousel .container-fluid {
    padding: 0;
-   min-width: 100%;
+   max-width: 100%;
+   height: auto;
 }
 
 .carousel .carousel-item {
@@ -362,6 +371,8 @@ a:focus {
    align-items: center;
    justify-content: center;
    flex-direction: column;
+   max-width: 100%;
+   height: auto;
 }
 
 .carousel .carousel-img {
@@ -380,7 +391,7 @@ a:focus {
    right: 0;
    bottom: 0;
    left: 0;
-   background: rgba(0, 0, 0, 0.5);
+   background: rgba(36, 31, 53, 0.753);
    z-index: 1;
 }
 
@@ -668,7 +679,7 @@ a:focus {
 .about {
    position: relative;
    width: 100%;
-   padding: 45px 0;
+   /* padding: 45px 0; */
 }
 
 .about .section-header {
