@@ -1,12 +1,12 @@
-/*******************************/
-/********* General CSS *********/
-/*******************************/
+/********* CUSTOM CSS **********/
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 
-/* Responsive Images */
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
+/********* General CSS *********/
 
 body {
   color: #4b4b4b;
@@ -399,7 +399,7 @@ a:focus {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
+
 }
 
 .carousel .carousel-text {

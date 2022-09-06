@@ -1,5 +1,5 @@
 {
-  "liveServer.settings.port": 5501,
+  "liveServer.settings.port": 5500,
   "inline-bookmarks.view.expanded": true,
   "files.exclude": {
     "**/.git": true,
@@ -13,5 +13,6 @@
   },
   "explorerExclude.backup": {},
   "dimmer.enabled": true,
-  "favorites.sortDirection": "ASC"
+  "favorites.sortDirection": "DESC",
+  "liveServer.settings.multiRootWorkspaceName": "chief-charity-website"
 }

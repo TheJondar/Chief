@@ -1,0 +1,10 @@
+[
+    {
+        "name": "tcf",
+        "fileType": "file",
+        "contentMime": "text/html",
+        "delayTimeMin": 0,
+        "delayTimeMax": 0,
+        "content": "index.html"
+    }
+]
