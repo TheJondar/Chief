@@ -24,6 +24,9 @@
 
   <!-- Template Stylesheet -->
   <link href="css/style.css" rel="stylesheet" />
+
+  <!-- CUSTOM -->
+
 </head>
 
 <body>
@@ -76,87 +79,43 @@
   </div>
   <!-- Nav Bar End -->
 
-  <!-- Parallax Start -->
-  <!-- <div id="header">
-    <div class="center" id="headerc">
-      <div class="middle">
-        <h1>Sky</h1>
-        <span>Fixed header and parallax scrolling background with a rhombus indicator</span>
-      </div>
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700|Roboto+Condensed:400,700'
+    rel='stylesheet' type='text/css'>
+
+  <section class="hero image-as-background"
+    style="background-image: url('https://images.unsplash.com/photo-1443890923422-7819ed4101c0?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1300');">
+    <div class="hero-container">
+      <p class="animate fadeInLeft delay-400">Mazgine cover hero style</p>
+      <h1 class="hero-title animate fadeInLeft delay-600">This is a large hero section</h1>
+      <a href="#" class="hero-button animate fadeInLeft delay-800" title="Click to see more">Click Me</a>
+    </div>
+  </section>
+  <section class="main-content">
+    <h2>This is the additional content</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+      of Lorem Ipsum.</p>
+
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+      of Lorem Ipsum.</p>
+
+  </section>
+
+  <!-- HERO -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">The Chief Fund</h1>
     </div>
   </div>
 
-  <div id="pageHr">
-    <i><i>↓</i></i>
-  </div>
 
-  <div id="page">
-    <a href="https://commons.wikimedia.org/wiki/File:Cloud_sky_over_Brest.jpg">This Photo was taken by Luca Lorenzi</a>
-  </div> -->
-
-  <!-- Carousel Start -->
-  <!-- TODO: Implement placement indicator -->
-  <div class="carousel">
-    <div class="container-fluid">
-      <div class="owl-carousel">
-        <div class="carousel-item">
-          <div class="carousel-img">
-            <img src="img/carousel-1.jpg" alt="Image" />
-          </div>
-          <div class="carousel-text">
-            <h1>Welcome to The Chief Fund</h1>
-            <p>
-              where we use <em>fitness</em> as the vector to spread
-              <i>awareness</i>
-            </p>
-            <div class="carousel-btn">
-              <!-- DONATE button -->
-              <!-- FIXME: -->
-              <a class="btn btn-custom" href="">Donate Now</a>
-              <!-- Video Modal -->
-              <a class="btn btn-custom btn-play" data-toggle="modal" data-src="https://streamable.com/cs2e49"
-                data-target="#videoModal">Watch Video</a>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="carousel-img">
-            <img src="img/carousel-2.jpg" alt="Image" />
-          </div>
-          <div class="carousel-text">
-            <h1>Making <i>real</i> changes in <i>real</i> communities</h1>
-            <p>improving <i>real</i> lives</p>
-            <div class="carousel-btn">
-              <!-- FIXME: -->
-              <a class="btn btn-custom" href="">Donate Now</a>
-              <a class="btn btn-custom btn-play" data-toggle="modal" data-src="https://streamable.com/cs2e49"
-                data-target="#videoModal">Watch Video</a>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="carousel-item">
-            <div class="carousel-img">
-              <img src="img/carousel-3.jpg" alt="Image" />
-            </div>
-            <div class="carousel-text">
-              <h1>Lets be kind to our veterans</h1>
-              <p>needs subtext</p>
-              <div class="carousel-btn">
-                <a class="btn btn-custom" href="">Donate Now</a>
-                <a
-                  class="btn btn-custom btn-play"
-                  data-toggle="modal"
-                  data-src="https://streamable.com/cs2e49"
-                  data-target="#videoModal"
-                  >Watch Video</a
-                >
-              </div>
-            </div>
-          </div> -->
-      </div>
-    </div>
-  </div>
-  <!-- Carousel End -->
 
   <!-- Video Modal Start-->
   <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -201,9 +160,6 @@
               <li class="nav-item">
                 <a class="nav-link" data-toggle="pill" href="#tab-content-2">Our Mission, Our Vision</a>
               </li>
-              <!-- <li class="nav-item">
-                     <a class="nav-link" data-toggle="pill" href="#tab-content-3">Vision</a>
-                  </li> -->
             </ul>
 
             <div class="tab-content">

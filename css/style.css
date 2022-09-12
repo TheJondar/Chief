@@ -1,4 +1,197 @@
+.main-content {
+   min-height: 1000px;
+}
+
+.hero {
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+   height: 100vh;
+   overflow: hidden;
+   position: relative;
+   width: 100%;
+}
+
+@media screen and (min-width: 640px) {
+   .hero {
+      background-position: 50% 0;
+   }
+}
+
+.hero:after {
+   background-color: rgba(62, 92, 135, 0.5);
+   bottom: 0;
+   content: "";
+   left: -2000%;
+   position: absolute;
+   right: -2000%;
+   top: 0;
+   z-index: 1;
+}
+
+.hero-container {
+   box-sizing: border-box;
+   height: auto;
+   padding: 30px 50px;
+   position: relative;
+   z-index: 2;
+   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+   transition-duration: 1.2s;
+}
+
+@media screen and (min-width: 640px) {
+   .hero-container {
+      height: 100%;
+   }
+}
+
+.hero-container p {
+   color: white;
+   font-family: "Roboto Condensed", sans-serif;
+   font-size: 13px;
+   font-weight: bold;
+   letter-spacing: 6px;
+   opacity: 0.8;
+   text-transform: uppercase;
+   text-align: left;
+}
+
+.hero-button {
+   background: rgba(255, 255, 255, 0.8);
+   color: #44575b;
+   font-size: 24px;
+   float: left;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   margin-top: 30px;
+   padding: 20px 90px;
+   text-decoration: none;
+}
+
+.hero-title {
+   color: white;
+   font-family: "Playfair Display", serif;
+   font-size: 17vw;
+   font-weight: 500;
+   letter-spacing: 1px;
+   line-height: 1.1;
+   margin: 5px 0;
+   text-align: left;
+   width: 85%;
+}
+
+@media screen and (min-width: 640px) {
+   .hero-title {
+      font-size: 10vw;
+   }
+}
+
+.main-content {
+   height: auto;
+   padding: 30px 50px;
+   position: relative;
+   width: 60%;
+}
+
+.main-content p {
+   color: #25373D;
+   font-family: "Playfair Display", serif;
+   font-size: 18px;
+   line-height: 1.5;
+}
+
+@-webkit-keyframes fadeInLeft {
+   from {
+      opacity: 0;
+      transform: translate3d(-12px, 0, 0);
+   }
+
+   to {
+      opacity: 1;
+      transform: none;
+   }
+}
+
+@keyframes fadeInLeft {
+   from {
+      opacity: 0;
+      transform: translate3d(-12px, 0, 0);
+   }
+
+   to {
+      opacity: 1;
+      transform: none;
+   }
+}
+
+.fadeInLeft {
+   -webkit-animation-name: fadeInLeft;
+   animation-name: fadeInLeft;
+}
+
+.animate {
+   -webkit-animation-duration: 0.75s;
+   animation-duration: 0.75s;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+   -webkit-animation-timing-function: cubic-bezier(0.2, 0.3, 0.25, 0.9);
+   animation-timing-function: cubic-bezier(0.2, 0.3, 0.25, 0.9);
+}
+
+.delay {
+   -webkit-animation-delay: 1s;
+   animation-delay: 1s;
+}
+
+.delay-400 {
+   -webkit-animation-delay: 0.4s;
+   animation-delay: 0.4s;
+}
+
+.delay-500 {
+   -webkit-animation-delay: 0.5s;
+   animation-delay: 0.5s;
+}
+
+.delay-600 {
+   -webkit-animation-delay: 0.6s;
+   animation-delay: 0.6s;
+}
+
+.delay-700 {
+   -webkit-animation-delay: 0.7s;
+   animation-delay: 0.7s;
+}
+
+.delay-800 {
+   -webkit-animation-delay: 0.8s;
+   animation-delay: 0.8s;
+}
+
 /* ======================== CUSTOM ================================= */
+/* HERO */
+.jumbotron {
+   color: white;
+   background-image: url("https://iili.io/PMxgDX.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+
+.jumbotron .container {
+   height: 70vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.display-4 {
+   color: rgb(218, 198, 238);
+   font-weight: 500;
+}
 
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 @import url(https://fonts.googleapis.com/css?family=Lusitana);
@@ -259,7 +452,7 @@ section .text {
 /*******************************/
 
 body {
-   color: #ebdede;
+   color: #858383;
    font-weight: 500;
    background: #130e27f1;
    font-family: "Quicksand", sans-serif;
