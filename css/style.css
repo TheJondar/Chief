@@ -59,7 +59,7 @@
 }
 
 .hero-button {
-   background: rgba(255, 255, 255, 0.8);
+   background: rgba(64, 66, 33, 0.973);
    color: #44575b;
    font-size: 24px;
    float: left;
@@ -72,8 +72,8 @@
 
 .hero-title {
    color: white;
-   font-family: "Playfair Display", serif;
-   font-size: 17vw;
+   font-family: "Quicksand", serif;
+   font-size: 16vw;
    font-weight: 500;
    letter-spacing: 1px;
    line-height: 1.1;
