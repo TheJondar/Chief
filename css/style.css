@@ -234,9 +234,10 @@ a:hover,
 a:active,
 a:focus {
    color: #fdbe33;
-   outline: none;
-   text-decoration: none;
-   background-color: #6432c0;
+   outline: #fdbe33;
+   outline-style: solid;
+   background-color: #5e11a7;
+   font-style: oblique;
 }
 
 .btn.btn-custom {
