@@ -14,6 +14,11 @@
 			"path": "css/style.css",
 			"bookmarks": [
 				{
+					"line": 38,
+					"column": 0,
+					"label": "Hero Text Positioning"
+				},
+				{
 					"line": 49,
 					"column": 17,
 					"label": ""
@@ -27,6 +32,16 @@
 					"line": 72,
 					"column": 13,
 					"label": ""
+				},
+				{
+					"line": 83,
+					"column": 0,
+					"label": "Hero Text"
+				},
+				{
+					"line": 225,
+					"column": 0,
+					"label": "Button Text"
 				}
 			]
 		}
