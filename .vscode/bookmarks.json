@@ -19,11 +19,6 @@
 					"label": "Hero Text Positioning"
 				},
 				{
-					"line": 49,
-					"column": 17,
-					"label": ""
-				},
-				{
 					"line": 60,
 					"column": 0,
 					"label": ""
@@ -34,14 +29,19 @@
 					"label": ""
 				},
 				{
-					"line": 83,
-					"column": 0,
-					"label": "Hero Text"
-				},
-				{
 					"line": 225,
 					"column": 0,
 					"label": "Button Text"
+				}
+			]
+		},
+		{
+			"path": "index.html",
+			"bookmarks": [
+				{
+					"line": 86,
+					"column": 6,
+					"label": "Animation Application"
 				}
 			]
 		}
