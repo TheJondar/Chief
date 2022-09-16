@@ -2062,9 +2062,10 @@ a:focus {
    left: 1px;
 }
 
+/* changed float from right to none */
 .sidebar .category-widget ul li span {
    display: inline-block;
-   float: right;
+   float: none;
 }
 
 .sidebar .sidebar-widget .tag-widget {
