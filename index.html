@@ -10,8 +10,10 @@
   <!-- Favicon -->
   <link href="img/Thechieffund_logo.jpg" rel="icon">
   <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700|Roboto+Condensed:400,700"
+    rel="stylesheet" type="text/css">
   <!-- CSS Libraries -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -26,7 +28,7 @@
 
 <body>
   <!-- Top Bar Start -->
-  <div class="top-bar d-none d-md-block">
+  <div class="top-bar d-none d-md-block" id="top">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-8">
@@ -50,54 +52,48 @@
       </div>
     </div>
   </div>
-  <!-- Top Bar End -->
-  <!-- Nav Bar Start -->
-  <div class="navbar navbar-expand-lg bg-dark navbar-dark">
-    <div class="container-fluid">
-      <a href="index.html" class="navbar-brand">Chief</a>
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark nav-sticky" id="nav">
+    <div class="container"> <a class="navbar-brand" href="#">
+        <b> CHIEF</b>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+        data-target="#navbar10">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-        <div class="navbar-nav ml-auto">
-          <a href="index.html" class="nav-item nav-link active">Home</a>
-          <!-- <a href="about.html" class="nav-item nav-link">About</a>
-          <a href="causes.html" class="nav-item nav-link">Causes</a>
-          <a href="event.html" class="nav-item nav-link">Events</a>
-          <a href="blog.html" class="nav-item nav-link">Blog</a>
-          <a href="contact.html" class="nav-item nav-link">Contact</a> -->
-        </div>
+      <div class="collapse navbar-collapse" id="navbar10">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> <a class="nav-link" href="#about"><i><span
+                  style="font-style: normal;">About</span></i></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#services"><i><span
+                  style="font-style: normal;">Services</span></i></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#events"><i><span style="font-style: normal;"
+                  contenteditable="true">Events</span></i></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#donate"><i><span
+                  style="font-style: normal;">DONATE</span></i></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#team"><i><span
+                  style="font-style: normal;">Team</span></i></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#volunteer"><i><span style="font-style: normal;"
+                  contenteditable="true">Get Involved</span></i></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#contact"><i><span style="font-style: normal;">Contact
+                  Us</span></i></a> </li>
+        </ul>
       </div>
     </div>
-  </div>
+  </nav>
+  <!-- Top Bar End -->
+  <!-- Nav Bar Start -->
   <!-- Nav Bar End -->
   <!-- HERO -->
   <section class="hero image-as-background" style="background-image: url('https://iili.io/PMxgDX.jpg')">
     <div class="hero-container">
       <p class="animate fadeInLeft delay-400">welcome to</p>
-      <h1 class="hero-title animate fadeInLeft delay-600">The Chief Fund</h1>
-      <a href="https://www.clover.com/pay-widgets/4dbd65c5-4b0c-497e-9fc8-aba85c42ba21" class="hero-button animate fadeInLeft delay-800" title="Click to see more">DONATE</a>
+      <h1 class="hero-title animate fadeInLeft delay-600" id="herotitle" contenteditable="true"
+        style="	text-shadow: 20px 20px 14px #130e27f1;">The Chief Fund</h1>
+      <a href="https://www.clover.com/pay-widgets/4dbd65c5-4b0c-497e-9fc8-aba85c42ba21"
+        class="hero-button animate fadeInLeft delay-800" title="Click to see more" id="donatebtn">DONATE</a>
     </div>
   </section>
-  <!-- Video Modal Start-->
-  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
-          <!-- 16:9 aspect ratio -->
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://youtu.be/FEIWUsC1kk8" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Video Modal End -->
   <!-- About Start -->
-  <div class="about">
+  <div class="about" id="about">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6">
@@ -118,8 +114,15 @@
               </li>
             </ul>
             <div class="tab-content">
-              <div id="tab-content-1" class="container tab-pane active"> Founded by Purple Heart Recipient, David Pereira, The Chief Fund is a movement to raise awareness throughout communities of the sacrifices our veteran men and women have made &amp; continue to make. That wounds can be both physical and mental, and that raising funds to help our veterans can help change lives. </div>
-              <div id="tab-content-2" class="container tab-pane fade"> Strength comes from being part of a community, being part of a team, and going after a common goal. We use fitness to honor those who have sacrificed themselves because we know serving isn’t for everyone, but service is something we should all be a part of. Be of service to those who have served by challenging yourself physically &amp; mentally while raising funds to support combat wounded and disabled veterans. </div>
+              <div id="tab-content-1" class="container tab-pane active"> Founded by Purple Heart Recipient, David
+                Pereira, The Chief Fund is a movement to raise awareness throughout communities of the sacrifices our
+                veteran men and women have made &amp; continue to make. That wounds can be both physical and mental, and
+                that raising funds to help our veterans can help change lives. </div>
+              <div id="tab-content-2" class="container tab-pane fade"> Strength comes from being part of a community,
+                being part of a team, and going after a common goal. We use fitness to honor those who have sacrificed
+                themselves because we know serving isn’t for everyone, but service is something we should all be a part
+                of. Be of service to those who have served by challenging yourself physically &amp; mentally while
+                raising funds to support combat wounded and disabled veterans. </div>
             </div>
           </div>
         </div>
@@ -128,83 +131,60 @@
   </div>
   <!-- About End -->
   <!-- Service Start -->
-  <div class="service">
+  <div class="service" id="services">
     <div class="container">
       <div class="section-header text-center">
-        <p class="animate fadeInLeft delay-400">What We Do</p>
-        <h2> We believe that we can improve more lives of veterans with you on our side </h2>
+        <p>Services</p>
+        <h2>We believe that we can improve more lives of veterans with you on our side</h2>
       </div>
       <div class="row">
-        <!-- <div class="col-lg-4 col-md-6">
-          <div class="service-item">
-            <div class="service-icon">
-              <i class="flaticon-diet"></i>
-            </div>
-            <div class="service-text">
-              <h3>Proper Diet</h3>
-              <p>
-                A healthy diet is essential for good health and nutrition. We
-                will help you to reach your goals.
-              </p>
-            </div>
-          </div>
-        </div> -->
-        <div class="col-lg-6 col-md-6">
+        <div class="col-lg-6 col-md-3">
           <div class="service-item">
             <div class="service-icon">
               <i class="flaticon-water"></i>
             </div>
             <div class="service-text">
               <h3>Physical fitness and Wellness</h3>
-              <p> We believe you must be fit to fight… Part of that is to ensure that veterans get the proper physical fitness services and wellness solutions they need to make sure they stay in the fight long after they take their uniform off. </p>
+              <p> We believe you must be fit to fight… Part of that is to ensure that veterans get the proper physical
+                fitness services and wellness solutions they need to make sure they stay in the fight long after they
+                take their uniform off. </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-6">
+        <div class="col-md-3 col-lg-6">
           <div class="service-item">
             <div class="service-icon">
               <i class="flaticon-healthcare"></i>
             </div>
             <div class="service-text">
               <h3>Mental health and therapy support</h3>
-              <p> As military service members, we were trained to Operate in high stress environments, Complete tasks, and execute the mission… But we weren't necessarily trained on how to deal with all that once we returned home Or get out of the service. </p>
+              <p> As military service members, we were trained to Operate in high stress environments, Complete tasks,
+                and execute the mission… But we weren't necessarily trained on how to deal with all that once we
+                returned home Or get out of the service. </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-6">
+        <div class="col-md-3 col-lg-6">
           <div class="service-item">
             <div class="service-icon">
               <i class="flaticon-education"></i>
             </div>
             <div class="service-text">
               <h3>Personal and professional development</h3>
-              <p> The transition from service to civilian life can be extremely stressful and lonely. We want to ensure you build on your attention to detail and discipline as you evolve into civilian life. </p>
+              <p> The transition from service to civilian life can be extremely stressful and lonely. We want to ensure
+                you build on your attention to detail and discipline as you evolve into civilian life. </p>
             </div>
           </div>
         </div>
-        <!-- <div class="col-lg-6 col-md-6">
-          <div class="service-item">
-            <div class="service-icon">
-              <i class="flaticon-home"></i>
-            </div>
-            <div class="service-text">
-              <h3>New Facilities</h3>
-              <p>
-                Having properly managed facilities is important for making
-                progress. They allow us to focus more on prevention rather
-                than treatment, by dealing with problems before they arise.
-              </p>
-            </div>
-          </div>
-        </div> -->
-        <div class="col-lg-6 col-md-6">
+        <div class="col-md-3 col-lg-6">
           <div class="service-item">
             <div class="service-icon">
               <i class="flaticon-social-care"></i>
             </div>
             <div class="service-text">
               <h3>Family support</h3>
-              <p> Because no one serves alone and it takes a team-- we want to ensure that your team Has the Necessary services and information to be successful. </p>
+              <p> Because no one serves alone and it takes a team - we want to ensure that your team Has the Necessary
+                services and information to be successful. </p>
             </div>
           </div>
         </div>
@@ -377,7 +357,7 @@
   </div> -->
   <!-- Causes End -->
   <!-- Event Start -->
-  <div class="event">
+  <div class="event" id="events">
     <div class="container">
       <div class="section-header text-center">
         <p>Upcoming Events</p>
@@ -386,7 +366,7 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="event-item">
-            <img src="img/event-1.jpg" alt="Image">
+            <img src="img/event-1.jpg" alt="Image" class="h-25">
             <div class="event-content">
               <div class="event-meta">
                 <p><i class="fa fa-calendar-alt"></i>FALL 2022</p>
@@ -403,7 +383,7 @@
         </div>
         <div class="col-lg-6">
           <div class="event-item">
-            <img src="img/event-2.jpg" alt="Image">
+            <img src="img/HBCUNYC.jpg" alt="Image" class="h-25">
             <div class="event-content">
               <div class="event-meta">
                 <p><i class="fa fa-calendar-alt"></i>09-17-2022</p>
@@ -423,9 +403,9 @@
   </div>
   <!-- Event End -->
   <!-- Donate Start -->
-  <div class="donate" data-parallax="scroll" data-image-src="img/donate.jpg">
+  <div class="donate" data-parallax="scroll" data-image-src="img/donate.jpg" id="donate">
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row align-items-center h-50">
         <div class="col-lg-7">
           <div class="donate-content">
             <div class="section-header">
@@ -458,7 +438,8 @@
                 </label>
               </div> -->
               <div>
-                <a class="btn btn-custom" href="https://www.clover.com/pay-widgets/4dbd65c5-4b0c-497e-9fc8-aba85c42ba21" role="button">Donate Now</a>
+                <a class="btn btn-custom" href="https://www.clover.com/pay-widgets/4dbd65c5-4b0c-497e-9fc8-aba85c42ba21"
+                  role="button">Donate Now</a>
               </div>
             </form>
           </div>
@@ -469,7 +450,7 @@
   <!-- Donate End -->
   <!-- TODO: Make edges less edgy -->
   <!-- Team Start -->
-  <div class="team">
+  <div class="team" id="team">
     <div class="container">
       <div class="section-header text-center">
         <p>Meet Our Team</p>
@@ -549,7 +530,7 @@
   </div>
   <!-- Team End -->
   <!-- Volunteer Start -->
-  <div class="volunteer" data-parallax="scroll" data-image-src="img/volunteer.jpg">
+  <div class="volunteer" data-parallax="scroll" data-image-src="img/volunteer.jpg" id="volunteer">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-5">
@@ -562,7 +543,8 @@
                 <input type="email" class="form-control" placeholder="Email" required="required">
               </div>
               <div class="control-group">
-                <textarea class="form-control" placeholder="Why you want to become a volunteer?" required="required"></textarea>
+                <textarea class="form-control" placeholder="Why you want to become a volunteer?"
+                  required="required"></textarea>
               </div>
               <div>
                 <button class="btn btn-custom" type="submit"> Become a volunteer </button>
@@ -664,7 +646,7 @@
 </div> -->
   <!-- Testimonial End -->
   <!-- Contact Start -->
-  <div class="contact">
+  <div class="contact" id="contact">
     <div class="container">
       <div class="section-header text-center">
         <p>Get In Touch</p>
@@ -677,20 +659,24 @@
         <div id="success"></div>
         <form name="sentMessage" id="contactForm" novalidate="novalidate">
           <div class="control-group">
-            <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name">
-            <p class="help-block text-danger"></p>
+            <input type="text" class="form-control" id="name" placeholder="Your Name" required="required"
+              data-validation-required-message="Please enter your name">
+            <p class="help-block text-muted"></p>
           </div>
           <div class="control-group">
-            <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email">
-            <p class="help-block text-danger"></p>
+            <input type="email" class="form-control" id="email" placeholder="Your Email" required="required"
+              data-validation-required-message="Please enter your email">
+            <p class="help-block text-muted"></p>
           </div>
           <div class="control-group">
-            <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject">
-            <p class="help-block text-danger"></p>
+            <input type="text" class="form-control" id="subject" placeholder="Subject" required="required"
+              data-validation-required-message="Please enter a subject">
+            <p class="help-block text-muted"></p>
           </div>
           <div class="control-group">
-            <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-            <p class="help-block text-danger"></p>
+            <textarea class="form-control" id="message" placeholder="Message" required="required"
+              data-validation-required-message="Please enter your message"></textarea>
+            <p class="help-block text-muted"></p>
           </div>
           <div>
             <button class="btn btn-custom" type="submit" id="sendMessageButton"> Send Message </button>
@@ -774,17 +760,11 @@
           <div class="footer-contact">
             <h2>Our Head Office</h2>
             <p>
-              <i class="fa fa-map-marker-alt"></i>Cresskill NJ, 07626 United States </p>
+              <i class="fa fa-map-marker-alt"></i>Cresskill NJ, 07626 United States
+            </p>
             <!-- <p><i class="fa fa-phone-alt"></i>+012 345 67890</p> -->
             <i class="fa fa-envelope"></i>
             <a href="mailto:contact@thechieffund.org">Write Us!</a>
-            <div class="footer-social">
-              <a class="btn btn-custom" href="https://www.google.com"><i class="fab fa-twitter"></i></a>
-              <a class="btn btn-custom" href="https://facebook.com/thechieffund"><i class="fab fa-facebook-f"></i></a>
-              <a class="btn btn-custom" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-              <!-- <a class="btn btn-custom" href="https://www.google.com"><i class="fab fa-instagram"></i></a> -->
-              <a class="btn btn-custom" href="https://www.google.com"><i class="fab fa-linkedin-in"></i></a>
-            </div>
           </div>
         </div>
         <!-- <div class="col-lg-3 col-md-6">
@@ -821,8 +801,9 @@
     </div>
     <div class="container copyright">
       <div class="row">
-        <div class="col-md-6">
-          <p> © <a href="https://www.google.com">The Chief Fund</a>, All Right Reserved. </p>
+        <div class="col-md-6 col-8" style="">
+          <p class="" style="	transform:  translateX(105px) ;"> © <a href="https://www.google.com">The Chief Fund</a>,
+            All Right Reserved. </p>
         </div>
         <!-- <div class="col-md-6">
                <p>Designed By <a href="#">Jondar</a></p>
@@ -832,7 +813,6 @@
   </div>
   <!-- Footer End -->
   <!-- Back to top button -->
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <!-- Pre Loader -->
   <div id="loader" class="hide">
     <div class="hide" id="loader"></div>
@@ -851,7 +831,6 @@
   <!-- Template Javascript -->
   <script src="js/main.js"></script>
   <script src="js/myparallax.js"></script>
-  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
 </html>

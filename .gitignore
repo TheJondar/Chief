@@ -12,18 +12,12 @@
 /build
 
 # misc
-.prettierrc.js
 desktop.ini
 .DS_Store
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
-chief-charity-website.code-workspace
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.favorites.json
 style_guideline.css
 style OG.css
 favorites.json
@@ -41,5 +35,4 @@ the-chief-fund.bdesign
 *.TODO
 
 # Local Netlify folder
-.netlify
 TODO.todo
