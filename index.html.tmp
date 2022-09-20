@@ -12,11 +12,8 @@
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&amp;display=swap"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700|Roboto+Condensed:400,700"
-    rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
   <!-- CSS Libraries -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -58,31 +55,21 @@
   </div>
   <!-- Top Bar Start -->
   <!-- Nav Bar Start -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark nav-sticky" id="nav"><a class="navbar-brand" href="#"><span
-        style="font-weight: normal;"></span></a>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark nav-sticky" id="nav"><a class="navbar-brand" href="#"><span style="font-weight: normal;"></span></a>
     <div class="container"> <a class="navbar-brand" href="#">
-        <b class=""><span style="font-weight: normal;"><b><span style="font-weight: normal;">
-                CHIEF</span></b></span></b>
-      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
-        data-target="#navbar10" style="">
+        <b class=""><span style="font-weight: normal;"><b><span style="font-weight: normal;"> CHIEF</span></b></span></b>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar10" style="">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbar10">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"> <a class="nav-link" href="#about" data-target="#about"><i><span
-                  style="font-style: normal;" class="text-uppercase">About</span></i></a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#services"><i><span style="font-style: normal;"
-                  class="text-uppercase">Services</span></i></a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#events"><i><span style="font-style: normal;"
-                  contenteditable="true" class="text-uppercase">Events</span></i></a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#donate"><i><span
-                  style="font-style: normal;">DONATE</span></i></a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#team"><i><span style="font-style: normal;"
-                  class="text-uppercase">Team</span></i></a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#volunteer"><i><span style="font-style: normal;"
-                  contenteditable="true" class="text-uppercase">Get Involved</span></i></a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#contact"><i><span style="font-style: normal;"
-                  class="text-uppercase">Contact Us</span></i></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#about" data-target="#about"><i><span style="font-style: normal;" class="text-uppercase">About</span></i></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#services"><i><span style="font-style: normal;" class="text-uppercase">Services</span></i></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#events"><i><span style="font-style: normal;" contenteditable="true" class="text-uppercase">Events</span></i></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#donate"><i><span style="font-style: normal;">DONATE</span></i></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#team"><i><span style="font-style: normal;" class="text-uppercase">Team</span></i></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#volunteer"><i><span style="font-style: normal;" contenteditable="true" class="text-uppercase">Get Involved</span></i></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#contact"><i><span style="font-style: normal;" class="text-uppercase">Contact Us</span></i></a> </li>
         </ul>
       </div>
     </div>
@@ -92,12 +79,7 @@
   <section class="hero image-as-background" style="background-image: url('https://iili.io/PMxgDX.jpg')">
     <div class="hero-container" style="">
       <p class="animate fadeInLeft delay-400">welcome to</p>
-      <h1 class="hero-title animate fadeInLeft delay-600" id="herotitle" contenteditable="true"
-        style="	text-shadow: 20px 20px 14px #130e27f1;">The Chief Fund</h1><a
-        class="btn py-3 px-3 ml-3 mt-2 btn-outline-warning"
-        href="https://www.clover.com/pay-widgets/4dbd65c5-4b0c-497e-9fc8-aba85c42ba21"
-        style="	background-image: linear-gradient(to bottom, rgba(10, 0, 0, 0.2), rgba(0, 0, 10, 0.8));	background-position: top left;	background-size: 2;	background-repeat: repeat;"><span
-          style="font-style: normal;">DONATE</span>&nbsp;<i class="fa fa-heart fa-fw" id="heart"></i> </a>
+      <h1 class="hero-title animate fadeInLeft delay-600" id="herotitle" contenteditable="true" style="	text-shadow: 20px 20px 14px #130e27f1;">The Chief Fund</h1><a class="btn py-3 px-3 ml-3 mt-2 btn-outline-warning" href="https://www.clover.com/pay-widgets/4dbd65c5-4b0c-497e-9fc8-aba85c42ba21" style="	background-image: linear-gradient(to bottom, rgba(10, 0, 0, 0.2), rgba(0, 0, 10, 0.8));	background-position: top left;	background-size: 2;	background-repeat: repeat;"><span style="font-style: normal;">DONATE</span>&nbsp;<i class="fa fa-heart fa-fw" id="heart"></i> </a>
     </div>
   </section>
   <!-- Youtube Video Modal Start-->
@@ -134,15 +116,8 @@
               </li>
             </ul>
             <div class="tab-content">
-              <div id="tab-content-1" class="container tab-pane active"> Founded by Purple Heart Recipient, David
-                Pereira, The Chief Fund is a movement to raise awareness throughout communities of the sacrifices our
-                veteran men and women have made &amp; continue to make. That wounds can be both physical and mental, and
-                that raising funds to help our veterans can help change lives. </div>
-              <div id="tab-content-2" class="container tab-pane fade"> Strength comes from being part of a community,
-                being part of a team, and going after a common goal. We use fitness to honor those who have sacrificed
-                themselves because we know serving isn’t for everyone, but service is something we should all be a part
-                of. Be of service to those who have served by challenging yourself physically &amp; mentally while
-                raising funds to support combat wounded and disabled veterans. </div>
+              <div id="tab-content-1" class="container tab-pane active"> Founded by Purple Heart Recipient, David Pereira, The Chief Fund is a movement to raise awareness throughout communities of the sacrifices our veteran men and women have made &amp; continue to make. That wounds can be both physical and mental, and that raising funds to help our veterans can help change lives. </div>
+              <div id="tab-content-2" class="container tab-pane fade"> Strength comes from being part of a community, being part of a team, and going after a common goal. We use fitness to honor those who have sacrificed themselves because we know serving isn’t for everyone, but service is something we should all be a part of. Be of service to those who have served by challenging yourself physically &amp; mentally while raising funds to support combat wounded and disabled veterans. </div>
             </div>
           </div>
         </div>
@@ -165,9 +140,7 @@
             </div>
             <div class="service-text">
               <h3>Physical Fitness and Wellness</h3>
-              <p> We believe you must be fit to fight… Part of that is to ensure that veterans get the proper physical
-                fitness services and wellness solutions they need to make sure they stay in the fight long after they
-                take their uniform off. </p>
+              <p> We believe you must be fit to fight… Part of that is to ensure that veterans get the proper physical fitness services and wellness solutions they need to make sure they stay in the fight long after they take their uniform off. </p>
             </div>
           </div>
         </div>
@@ -178,9 +151,7 @@
             </div>
             <div class="service-text">
               <h3>Mental Health and Therapy Support</h3>
-              <p> As military service members, we were trained to Operate in high stress environments, Complete tasks,
-                and execute the mission… But we weren't necessarily trained on how to deal with all that once we
-                returned home Or get out of the service. </p>
+              <p> As military service members, we were trained to Operate in high stress environments, Complete tasks, and execute the mission… But we weren't necessarily trained on how to deal with all that once we returned home Or get out of the service. </p>
             </div>
           </div>
         </div>
@@ -191,8 +162,7 @@
             </div>
             <div class="service-text">
               <h3>Personal and Professional Development</h3>
-              <p> The transition from service to civilian life can be extremely stressful and lonely. We want to ensure
-                you build on your attention to detail and discipline as you evolve into civilian life. </p>
+              <p> The transition from service to civilian life can be extremely stressful and lonely. We want to ensure you build on your attention to detail and discipline as you evolve into civilian life. </p>
             </div>
           </div>
         </div>
@@ -203,8 +173,7 @@
             </div>
             <div class="service-text">
               <h3 contenteditable="true">Family Support</h3>
-              <p> Because no one serves alone and it takes a team - we want to ensure that your team Has the Necessary
-                services and information to be successful. </p>
+              <p> Because no one serves alone and it takes a team - we want to ensure that your team Has the Necessary services and information to be successful. </p>
             </div>
           </div>
         </div>
@@ -441,8 +410,7 @@
                 </label>
               </div> -->
               <div>
-                <a class="btn btn-custom" href="https://www.clover.com/pay-widgets/4dbd65c5-4b0c-497e-9fc8-aba85c42ba21"
-                  role="button"><i><span style="font-style: normal;"><b class="">Donate Now</b></span></i></a>
+                <a class="btn btn-custom" href="https://www.clover.com/pay-widgets/4dbd65c5-4b0c-497e-9fc8-aba85c42ba21" role="button"><i><span style="font-style: normal;"><b class="">Donate Now</b></span></i></a>
               </div>
             </form>
           </div>
@@ -453,28 +421,24 @@
   <!-- Donate End -->
   <!-- TODO: Make edges less edgy -->
   <!-- Team Start -->
-  <div class="py-5 text-center text-white"
-    style="background-position: center center, center center; background-size: cover, cover; background-repeat: no-repeat, repeat;">
+  <div class="py-5 text-center text-white" style="background-position: center center, center center; background-size: cover, cover; background-repeat: no-repeat, repeat;">
     <div class="container-fluid">
       <div class="row">
         <div class="mx-auto col-md-12">
           <div class="col-md-12">
             <div class="section-header text-center">
-              <p style="	text-shadow: 10px 10px 6px black;" class="fade-in">Meet Our Team</p>
-              <h1 class="mb-3" style="	text-shadow: 10px 10px 6px black;" contenteditable="true"><b>The awesome people
-                  behind our charity activities</b></h1>
+              <p style="" class="fade-in">Meet Our Team</p>
+              <h1 class="mb-3" style="" contenteditable="true"><b>The awesome people behind our charity activities</b></h1>
             </div>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6 col-md-6 pt-3"> <img class="img-fluid d-block mb-3 mx-auto rounded border-warning border"
-            src="img/David.jpg" alt="Card image cap" width="320">
+        <div class="col-lg-6 col-md-6 pt-3"> <img class="img-fluid d-block mb-3 mx-auto rounded border-warning border" src="img/David.jpg" alt="Card image cap" width="320">
           <h4>David<b> Pereira</b></h4>
           <p class="mb-0"><u>Founder</u></p>
         </div>
-        <div class="col-md-6 col-lg-6 pt-3"> <img class="img-fluid d-block mb-3 mx-auto rounded border border-warning"
-            src="img/Albert J. William.jpeg" alt="Card image cap" width="310" height="300
+        <div class="col-md-6 col-lg-6 pt-3"> <img class="img-fluid d-block mb-3 mx-auto rounded border border-warning" src="img/Albert J. William.jpeg" alt="Card image cap" width="310" height="300
 400">
           <h4>Albert J.<b> William</b></h4>
           <p class="mb-0"><u>Associate</u></p>
@@ -497,8 +461,7 @@
                 <input type="email" class="form-control" placeholder="Email" required="required">
               </div>
               <div class="control-group">
-                <textarea class="form-control" placeholder="Why you want to become a volunteer?"
-                  required="required"></textarea>
+                <textarea class="form-control" placeholder="Why you want to become a volunteer?" required="required"></textarea>
               </div>
               <div>
                 <button class="btn btn-custom" type="submit"> Become a volunteer </button>
@@ -613,23 +576,19 @@
         <div id="success"></div>
         <form name="sentMessage" id="contactForm" novalidate="novalidate">
           <div class="control-group">
-            <input type="text" class="form-control" id="name" placeholder="Your Name" required="required"
-              data-validation-required-message="Please enter your name">
+            <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name">
             <p class="help-block text-muted"></p>
           </div>
           <div class="control-group">
-            <input type="email" class="form-control" id="email" placeholder="Your Email" required="required"
-              data-validation-required-message="Please enter your email">
+            <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email">
             <p class="help-block text-muted"></p>
           </div>
           <div class="control-group">
-            <input type="text" class="form-control" id="subject" placeholder="Subject" required="required"
-              data-validation-required-message="Please enter a subject">
+            <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject">
             <p class="help-block text-muted"></p>
           </div>
           <div class="control-group">
-            <textarea class="form-control" id="message" placeholder="Message" required="required"
-              data-validation-required-message="Please enter your message"></textarea>
+            <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
             <p class="help-block text-muted"></p>
           </div>
           <div>
@@ -714,8 +673,7 @@
           <div class="footer-contact">
             <h2>Our Head Office</h2>
             <p>
-              <i class="fa fa-map-marker-alt"></i>Cresskill NJ, 07626 United States
-            </p>
+              <i class="fa fa-map-marker-alt"></i>Cresskill NJ, 07626 United States </p>
             <!-- <p><i class="fa fa-phone-alt"></i>+012 345 67890</p> -->
             <i class="fa fa-envelope"></i>
             <a href="mailto:contact@thechieffund.org">Write Us!</a>
@@ -756,8 +714,7 @@
     <div class="container copyright">
       <div class="row">
         <div class="col-md-6 col-8" style="">
-          <p class="" style="	transform:  translateX(105px) ;"> © <a href="https://www.google.com">The Chief Fund</a>,
-            All Right Reserved. </p>
+          <p class="" style="	transform:  translateX(105px) ;"> © <a href="https://www.google.com">The Chief Fund</a>, All Right Reserved. </p>
         </div>
         <!-- <div class="col-md-6">
                <p>Designed By <a href="#">Jondar</a></p>
@@ -785,6 +742,7 @@
   <!-- Template Javascript -->
   <script src="js/main.js"></script>
   <script src="assets/js/Modal-Video.js"></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
 </html>
