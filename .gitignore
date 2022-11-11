@@ -1,38 +1,9 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+node_modules/
 desktop.ini
-.DS_Store
-.env.local
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-style_guideline.css
-style OG.css
-favorites.json
-about.html
-blog.html
-causes.html
-contact.html
-donate.html
-event.html
-service.html
+img/the_chief_full_vid(1440).mp4 (720p).mp4
+img/thechief/
 team.html
-volunteer.html
-the-chief-fund.bdesign
-*.bdesign
-*.TODO
-
-# Local Netlify folder
-TODO.todo
+single.html
+blog.html
+event.html
+causes.html

@@ -1,26 +1,9 @@
 {
-  "name": "chief-charity-website",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "John Santana",
-  "license": "ISC",
   "dependencies": {
-    "@flaticon/flaticon-uicons": "^1.7.0",
-    "netlify-cli": "^11.5.0",
+    "@vimeo/player": "^2.18.0",
+    "eslint": "^8.27.0",
+    "jinno": "^1.0.9",
     "prettier": "^2.7.1",
-    "prettier-eslint": "^15.0.1",
-    "scrollax": "^1.0.0",
-    "util.js": "^0.0.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.23.0"
+    "prettier-eslint": "^15.0.1"
   }
 }
