@@ -2,11 +2,11 @@
 /********* Custom CSS *********/
 /*******************************/
 .event-text p {
-    color: #2D2D41
+    color: #2D2D41;
 }
 
 .event-meta p {
-    color: #4A4C70
+    color: #4A4C70;
 }
 
 .team-text p {
@@ -16,7 +16,7 @@
 }
 
 .team .team-text {
-    background-color: whitesmoke;
+    background-color: rgb(245, 245, 245);
 }
 
 /*******************************/
@@ -1520,7 +1520,7 @@ a:focus {
 
 .blog .blog-meta i {
     color: #4a4c70;
-    margin-right: 8px
+    margin-right: 8px;
 }
 
 .blog .pagination {
