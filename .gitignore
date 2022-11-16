@@ -7,3 +7,10 @@ single.html
 blog.html
 event.html
 causes.html
+_pgbackup/
+_pginfo/
+old.html
+pgia/
+pinegrow.json
+projectdb.pgml
+TODO
