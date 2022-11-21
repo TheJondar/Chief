@@ -1,8 +1,9 @@
 {
   "dependencies": {
     "@vimeo/player": "^2.18.0",
+    "browser-sync": "^2.27.10",
     "eslint": "^8.27.0",
-    "jinno": "^1.0.9",
+    "global": "^4.4.0",
     "prettier": "^2.7.1",
     "prettier-eslint": "^15.0.1"
   }

@@ -25,26 +25,21 @@
 
 <body data-spy="scroll" data-bs-custom-class="scrollspy" data-target="#navbarCollapse" data-offset="200">
   <!-- Top Bar Start -->
-  <div class="top-bar d-none d-md-block">
+  <div class="top-bar d-none d-md-block" data-pg-collapsed>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-8">
           <div class="top-bar-left">
-            <!-- <div class="text">
-                <i class="fa fa-phone-alt"></i>
-                <p>+123 456 7890</p>
-              </div> -->
             <div class="text"> <i class="fa fa-envelope"></i>
-              <p><a href="mailto:contact@thechieffund.org" style="color: white">Contact
+              <p><a href="mailto:contact@thechieffund.org" style="color: white">&nbsp; Contact
                   Us</a></p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="top-bar-right">
-            <div class="social"> <a href=""><i class="fab fa-twitter"></i></a>
-              <!-- <a href=""><i class="fab fa-facebook-f"></i></a> --> <a href=""><i
-                  class="fab fa-linkedin-in"></i></a> <a href=""><i class="fab fa-instagram"></i></a>
+            <div class="social"> <a href="https://www.instagram.com/thechieffund/?hl=en"><i
+                  class="fab fa-instagram"></i></a>
             </div>
           </div>
         </div>
@@ -53,7 +48,7 @@
   </div>
   <!-- Top Bar End -->
   <!-- Nav Bar Start -->
-  <div class="navbar navbar-expand-lg bg-dark navbar-dark" data-pg-collapsed>
+  <div class="bg-dark navbar navbar-dark navbar-expand-lg">
     <div class="container-fluid"> <a href="index.html" class="navbar-brand">THECHIE<strong
           style="color: #FDBE33">F</strong>UND</a>
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"> <span
@@ -64,17 +59,16 @@
             href="index#services" class="nav-item nav-link">SERVICES</a> <a href="index#donate"
             class="nav-item nav-link">DONATE</a> <a href="index#events" class="nav-item nav-link">EVENTS</a> <a
             href="index#team" class="nav-item nav-link">TEAM</a>
-          <div class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Get
-              Involved</a>
+          <div class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">GET
+              INVOLVED</a>
             <div class="dropdown-menu"> <a href="#" class="dropdown-item">Partner With Us</a> <a href="#"
                 class="dropdown-item">Fund an Event</a> <a href="#" class="dropdown-item">Host an Event</a>
             </div>
-          </div> <a href="index#contact" class="nav-item nav-link">CONTACT</a>
+          </div> <a href="#contact" class="nav-item nav-link">CONTACT</a>
         </div>
       </div>
     </div>
   </div>
-  <!-- Nav Bar End -->
   <!-- Page Header Start -->
   <div class="page-header">
     <div class="container">
@@ -163,42 +157,30 @@
     </div>
   </div>
   <!-- Single Post End-->
-  <!-- Footer Start -->
-  <!-- Footer End -->
   <!-- Back to top button --> <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Footer Start -->
   <div class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-md-6">
-          <div class="footer-contact">
-            <h2>Our Head Office</h2>
-            <p> <i class="fa fa-map-marker-alt"></i>Cresskill NJ, 07626 United States </p>
-            <!-- <p><i class="fa fa-phone-alt"></i>+012 345 67890</p> --> <i class="fa fa-envelope"></i> <a
-              href="mailto:contact@thechieffund.org">Write Us!</a>
+        <div class="col-lg-3 col-md-6 col-xl-4">
+          <div class="footer-link">
+            <h2>Popular Links</h2> <a href="#about">About Us</a> <a href="#contact">Contact Us</a>
+            <!-- <a href="">Popular Causes</a> --> <a href="#events">Upcoming Events</a>
+            <!-- <a href="">Latest Blog</a> -->
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="footer-link">
-            <h2>Popular Links</h2>
-            <a href="">About Us</a>
-            <a href="">Contact Us</a>
-            <a href="">Popular Causes</a>
-            <a href="">Upcoming Events</a>
-            <a href="">Latest Blog</a>
+            <h2>Useful Links</h2> <a href="ToS.html">Terms of use</a> <a href="privacy.html">Privacy policy</a> <a
+              href="">Cookies</a> <a href="">Help</a> <a href="">FAQs</a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="footer-link">
-            <h2>Useful Links</h2> <a href="ToS.html">Terms of use</a> <a data-target="#" href="privacy.html">Privacy
-              policy</a> <a href="">Cookies</a> <a href="">Help</a> <a href="">FAQs</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 col-xl-3">
           <div class="footer-newsletter">
             <h2>Newsletter</h2>
-            <form>
-              <input class="form-control" placeholder="Email goes here" />
-              <button class="btn btn-custom">Submit</button>
+            <form class=" pl-0">
+              <input class=" form-control pl-5" placeholder="Email goes here" />
+              <button class="btn btn-custom ml-0 pl-auto">Submit</button>
               <label>Don't worry, we don't spam!</label>
             </form>
           </div>
@@ -213,11 +195,12 @@
             All Right Reserved. </p>
         </div>
         <!-- <div class="col-md-6">
-               <p>Designed By <a href="#">Jondar</a></p>
-            </div> -->
+                 <p>Designed By <a href="#">Jondar</a></p>
+              </div> -->
       </div>
     </div>
   </div>
+  <!-- Footer End -->
   <!-- Pre Loader -->
   <!-- JavaScript Libraries -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
